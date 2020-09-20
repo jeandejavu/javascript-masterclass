@@ -21,7 +21,7 @@ try {
         ),
       ])
     )
-    .then(() => database.execute("select name from author"))
+    .then(() => database.execute("select name, age from author"))
     .then((data) => console.log(JSON.stringify(data,null,"  ")))
     .catch((error) => console.log(error))
     .finally(() => console.timeEnd('execution time'));
