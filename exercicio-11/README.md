@@ -1,6 +1,6 @@
 ### Objetivo
 
-#### Divida o projeto em módulos
+#### Crie um atraso no retorno da função execute por meio de setTimeout e utilize uma promise para tratar o comportamento assíncrono.
 
 Instruções
 
