@@ -19,7 +19,7 @@ async function exec() {
       ),
     ])
   
-  return database.execute("select name from author");
+  return database.execute("select name, age from author");
 }
 
 (async () => {
